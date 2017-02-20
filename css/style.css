@@ -1,6 +1,19 @@
 body {
+	padding: 0;
+	margin: 0;
 	height: 2000px;
+	min-width: 1000px;
 	font-family: "MyriadProRegular";
+		line-height: 1.25;
+
+}
+
+.width {
+	width: 1000px;
+	height: 1px;
+	background: red;
+	visibility: hidden;
+	content: '.';
 }
 
 .page {
@@ -12,7 +25,9 @@ body {
 
 .first {
 	background: #acacac;
-	margin: 200px auto;
+	margin-top: 235px;
+	margin-left: 256px;
+	margin-right: 140px;
 	position: relative;
 }
 
@@ -57,17 +72,17 @@ body {
 
 h1 {
 	margin-top: 3px;
-	margin-bottom: 19px;
+	margin-bottom: 13px;
 	font-size: 24px;
 	font-weight: normal;
 }
 
-p {
+section p {
 	font-size: 12px;
 }
 
 .pic1 {
-	margin-top: 0;
+	
 	display: block;
 	float: left;
 	width: :207px;
@@ -89,7 +104,7 @@ h2 {
 }
 
 .jokes {
-	margin-top: 48px;
+	margin-top: 36px;
 	height: 250px;
 }
 
@@ -120,7 +135,7 @@ h2 {
 	right: 30px;
 }
 
-.end {
+footer p {
 	font-size: 9px;
 	text-align: center;
 }

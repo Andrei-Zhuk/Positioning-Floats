@@ -1,0 +1,159 @@
+body {
+	height: 2000px;
+	font-family: "MyriadProRegular";
+}
+
+.page {
+	height: 686px;
+	width: 466px;
+	padding: 30px;
+	border: 2px solid black;
+}
+
+.first {
+	background: #acacac;
+	margin: 200px auto;
+	position: relative;
+}
+
+.second {
+	background: #cccccc;
+	position: absolute;
+	top: -20px;
+	left: -21px;
+}
+
+.third {
+	background: #ebebeb;
+	position: absolute;
+	top: -20px;
+	left: -21px;
+}
+
+.bookmark {
+	position: absolute;
+	border-bottom-right-radius: 10px; 
+	border-top-right-radius: 10px;
+	border: 2px solid black;
+	width: 107px;
+	height: 31px;
+	top: 40px;
+}
+
+.one {
+	background: #00aeef;
+	right: -15px;
+}
+
+.two {
+	background: #39b54a;
+	right: -48px;
+}
+
+.three {
+	right: -82px;
+	background: #f68e56;
+}
+
+h1 {
+	margin-top: 3px;
+	margin-bottom: 19px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+p {
+	font-size: 12px;
+}
+
+.pic1 {
+	margin-top: 0;
+	display: block;
+	float: left;
+	width: :207px;
+	height: 111px;
+	margin-right: 23px;
+	margin-left: 2px;
+}
+
+.pic2 {
+	display: block;
+	float: right;
+	width: :140px;
+	height: 140px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.jokes {
+	margin-top: 48px;
+	height: 250px;
+}
+
+.joke {
+	display: block;
+	position: absolute;
+	width: :194px;
+	height: 89px;
+}
+
+.joke1 {
+	top: 460px;
+	left: 30px;
+}
+
+.joke2 {
+	top: 460px;
+	right: 30px;
+}
+
+.joke3 {
+	top: 563px;
+	left: 30px;
+}
+
+.joke4 {
+	top: 563px;
+	right: 30px;
+}
+
+.end {
+	font-size: 9px;
+	text-align: center;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 87px;
+	height: 69px;
+	background: #fbaf5d;
+	border: 1px solid black;
+}
+
+.fixed p {
+	margin: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.fixed img {
+	display: block;
+	position: absolute;
+	left: 4px;
+	bottom: 15px;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
